@@ -1,0 +1,46 @@
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard_val[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard_val[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard_val[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard_val[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard_val[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard_val[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports i_clk]
+set_property PACKAGE_PIN Y18 [get_ports i_clk]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard[0]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard[4]}]
+set_property PACKAGE_PIN A18 [get_ports {keyboard[7]}]
+set_property PACKAGE_PIN A20 [get_ports {keyboard[6]}]
+set_property PACKAGE_PIN B20 [get_ports {keyboard[5]}]
+set_property PACKAGE_PIN E18 [get_ports {keyboard[4]}]
+set_property PACKAGE_PIN F18 [get_ports {keyboard[3]}]
+set_property PACKAGE_PIN D19 [get_ports {keyboard[2]}]
+set_property PACKAGE_PIN E19 [get_ports {keyboard[1]}]
+set_property PACKAGE_PIN C19 [get_ports {keyboard[0]}]
+
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard_val[6]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports i_rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports pause]
+set_property PACKAGE_PIN R4 [get_ports i_rst_n]
+set_property PACKAGE_PIN W4 [get_ports pause]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {keyboard_val[7]}]
+set_property PACKAGE_PIN F15 [get_ports {keyboard_val[7]}]
+set_property PACKAGE_PIN C15 [get_ports {keyboard_val[0]}]
+
+set_property PACKAGE_PIN C14 [get_ports {keyboard_val[1]}]
+set_property PACKAGE_PIN E17 [get_ports {keyboard_val[2]}]
+set_property PACKAGE_PIN F16 [get_ports {keyboard_val[3]}]
+set_property PACKAGE_PIN F14 [get_ports {keyboard_val[4]}]
+set_property PACKAGE_PIN F13 [get_ports {keyboard_val[5]}]
+set_property PACKAGE_PIN F15 [get_ports {keyboard_val[6]}]
